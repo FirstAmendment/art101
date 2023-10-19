@@ -4,6 +4,19 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 10px white;
+    background-color: red;
+  }
+  body {
+    background-color: #e1b74d;
+  }
+  h1{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 1px;
+    border: solid 1px white;
+    background-color: red;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
   }
