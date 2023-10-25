@@ -1,21 +1,28 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Calculate the age of Vehicle
+// Author: Oscar Aguirre
+// Date: 10/24/2023
 
-// Constants
 
-// Functions
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+//Variables
+make = "Chevrolet";
+model = "El Camino";
+color = "Red"
+year = 1969;
+ownIt = false;
+//Calculate Age
+//user10060795 on stack overflow provided this code snippet for retreiving the current year from my local machines time
+//https://stackoverflow.com/questions/6002254/get-the-current-year-in-javascript#:~:text=Instantiate%20the%20class%20Date%20and,new%20Date().getFullYear()%3B 
+now = new Date().getFullYear();
+age = now - year;
+//output
+document.writeln("<br>make : " + make + "<br>");
+document.writeln("model : " + model + "<br>");
+document.writeln("color : " + color + "<br>");
+document.writeln("year : " + year + "<br>");
+document.writeln("age : " + age + "<br>");
+document.writeln("ownIt : " + ownIt + "<br>");
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
 
-// let's get this party started
-main();
+
+
