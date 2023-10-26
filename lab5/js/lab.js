@@ -2,9 +2,7 @@
 // Author: Oscar Aguirre
 // Date: 10/24/2023
 
-
-
-//Variables
+    //Variables
 make = "Chevrolet";
 model = "El Camino";
 color = "Red"
@@ -24,6 +22,9 @@ document.writeln("color : " + color + "<br>");
 document.writeln("year : " + year + "<br>");
 document.writeln("age : " + age + "<br>");
 document.writeln("ownIt : " + ownIt + "<br>");
+
+  // let's get this party started
+
 
 
 
