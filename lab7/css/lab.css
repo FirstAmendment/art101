@@ -1,0 +1,44 @@
+body{
+    background-color: blueviolet;
+
+}
+
+#content{
+    border:solid 5px red;
+    background-color: blueviolet;
+}
+h1,h2,h3 {
+       font-size: 200%;
+    font-family: "Times New Roman", Times, serif;
+    color: #de2d2d;
+    animation: glow 2s infinite;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px blueviolet;
+    background-color: blueviolet;
+  }
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px greenyellow;
+    }
+    50% {
+        text-shadow: 0 0 20px greenyellow;
+    }
+    100% {
+        text-shadow: 0 0 10px greenyellow;
+    }
+}
+
+.glow-text {
+    font-size: 200%;
+    font-family: "Times New Roman", Times, serif;
+    color: #de2d2d;
+    animation: glow 2s infinite;
+    padding: 10px;
+    margin-bottom: 10px;
+}
