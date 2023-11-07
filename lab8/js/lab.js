@@ -11,7 +11,7 @@ console.log("This is my array passed through a function that multiplies by 9: " 
 //displays my anonymous funtion
 console.log("This is my anonymous function that divides my array by itself: " + a.map(function(a) {return a/a;}));
 //Chat GPT
-var mapResults = '<p>This is my array: </p>' + a+ '<p>This is my array passed through a function that multiplies by 9: </p>' + a.map(times9) +'<p>This is my array passed through an unnamed function that divides by itself: </p>' + a.map(function(a) {return a/a;});
+var mapResults = '<p>  This is my array: </p>' + a + '<p>This is my array passed through a function that multiplies by 9: </p>' + a.map(times9) +'<p>This is my array passed through an unnamed function that divides by itself: </p>' + a.map(function(a) {return a/a;});
 var outputEl = document.getElementById("output");
 outputEl.innerHTML = mapResults;
 

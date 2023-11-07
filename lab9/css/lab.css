@@ -1,0 +1,122 @@
+body{
+    background-color:#de2d2d;
+    animation: glow 2s infinite;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(45deg, #ff5733, #33ccff);
+    background-size: 20% 20%;
+    animation: gradient 5s infinite;
+
+}
+
+#content{
+    border:solid 5px gold;
+    background-color: de2d2d;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #ff5733, #33ccff);
+    background-size: 200% 200%;
+    animation: gradient 5s infinite;
+}
+h1,h2,h3 {
+       font-size: 200%;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    animation: glow 2s infinite;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(45deg, #ff5733, #33ccff);
+    background-size: 20% 20%;
+    animation: gradient 5s infinite;
+}
+
+.minor-section {
+    margin-bottom: 10px;
+    border: solid 1px gold;
+    background-color: #de2d2d;
+    animation: glow 2s infinite;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(45deg, #ff5733, #33ccff);
+    background-size: 20% 20%;
+    animation: gradient 5s infinite;
+  }
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px white;
+    }
+    50% {
+        text-shadow: 0 0 20px white;
+    }
+    100% {
+        text-shadow: 0 0 10px white;
+    }
+}
+
+.glow-text {
+    font-size: 200%;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    animation: glow 2s infinite;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+p{
+    color: white;
+    padding : 10px;
+    text-align: center;
+    animation: glow 2s infinite;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(45deg, #ff5733, #33ccff);
+    background-size: 20% 20%;
+    animation: gradient 5s infinite;
+
+}
+.output{
+ padding: 10px;
+}
+.red {
+    color: red;    
+    animation: glow 2s infinite;
+    text-align: right;
+  }
+  .blue {
+    color: blue;
+    animation: glow 2s infinite;
+    text-align:left
+  }
+  #target {
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+    font-family: 'Olde English';
+    font-size: 200%;
+  }
+
+  .animated-background {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #ff5733, #33ccff);
+    background-size: 200% 200%;
+    animation: gradient 5s infinite;
+}
+
+/* Define the animation keyframes */
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}

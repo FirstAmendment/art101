@@ -13,6 +13,7 @@ h1,h2,h3 {
     color: #de2d2d;
     animation: glow 2s infinite;
     margin-bottom: 10px;
+    padding: 10px;
 }
 
 .minor-section {
@@ -42,4 +43,8 @@ h1,h2,h3 {
 }
 p{
     color: white;
+    padding : 10px;
+}
+.output{
+ padding: 10px;
 }
