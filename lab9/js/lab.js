@@ -11,5 +11,6 @@ $("button.red").click(function(){
   $("button.blue").click(function(){
     $("#target").removeClass("red");
       $("#target").toggleClass("blue");
-        
+
+$()
   });
