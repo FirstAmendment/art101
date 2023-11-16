@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Hello World</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -10,20 +10,18 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
 	<!-- Include a sitewide CSS file for consistent styling across the site -->
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<!-- Lab-specifc CSS file for any special styling of this particular page -->
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
-	
+	<link rel="stylesheet" type="text/css" href="../lab10/css/lab.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->	
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+	<script type="text/javascript" src="e.js" DEFER></script>
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Oscar's Experiment Page</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
 					<p>Restate the challenge of the lab here.</p>
@@ -42,8 +40,11 @@
 			<div class="minor-section">
 					<h2>Results</h2>
 					<div id="output"></div>
+					<button id="my-button">
+						Click me!</button>
 			</div>
 		</section>
+		
 		<nav id="links">
 			<!-- Put links to other pages (including the homepage) here. -->
 		</nav>
