@@ -4,13 +4,13 @@
  *
  * (c) Copyright by CocaPancho Lab.
  **/
-$("button.red").click(function(){
-    $("#target").removeClass("blue");
-      $("#target").toggleClass("red")
-  });
-  $("button.blue").click(function(){
-    $("#target").removeClass("red");
-      $("#target").toggleClass("blue");
+// add button to challenge section
+$("#challenge").append("<button id='button-challenge'>Special</button>");
 
-$()
-  });
+// add a click listener to the challenge button
+$("#button-challenge").click(function(){
+  // now add (or subtract) the "special" class to the section
+  $("#challenge").toggleClass("special");
+  console.log("JS");
+});
+

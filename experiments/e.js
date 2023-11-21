@@ -1,7 +1,14 @@
 
-$("#my-button").click(function(){
-    var name = prompt("Name Please:");
-$('title').html('Hello ' + name + '!');
+var name;
+$("#input").click(function(){
+
+    var name = $("#input").val()
+
+
+    console.log("Java is woking " + name);
 })
-console.log("Java is woking");
+
+$('#my-button').click(function() {
+$("#title").text("Hello " + name);
+});
 
