@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    animation: changeColor 2s infinite alternate;
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: #22ff1a;
+    
+    }
+    25% {
+        background-color: #34dbdb;
+    
+    }
+    50% {
+        background-color: #e73c3c;
+    }
+    100% {
+        background-color: #000000;
+    
+    }
+}
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px white;
+    }
+    50% {
+        text-shadow: 0 0 20px white;
+    }
+    100% {
+        text-shadow: 0 0 10px white;
+    }}
+.glow-text {
+    font-size: 200%;
+    font-family: "Times New Roman", Times, serif;
+    color: #de2d2d;
+    animation: glow 2s infinite;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+h1,h2,h3{
+    font-size: 200%;
+    font-family: "Times New Roman", Times, serif;
+    color: #ffffff;
+    animation: glow 2s infinite;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.text{
+    font-size: 100%;
+    font-family: "Times New Roman", Times, serif;
+    color: #ffffff;
+    animation: glow 2s infinite
+}
+p{
+    font-size: 100%;
+    font-family: "Times New Roman", Times, serif;
+    color: #ffffff;
+    animation: glow 2s infinite
+}
+
+#output{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 200%
+
+}
