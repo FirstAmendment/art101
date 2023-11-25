@@ -1,16 +1,16 @@
 body {
     margin: 0;
     overflow: hidden;
-    animation: changeColor 2s infinite;
+    animation: changeColor 2s infinite alternate;
 }
 
 @keyframes changeColor {
 
-    1% {
+    0% {
         background-color: #34dbdb;
-
+    
     }
-    75% {
+    100% {
         background-color: #e73c3c;
     }
 
@@ -56,6 +56,7 @@ p{
 
 #output{
     font-family: "Times New Roman", Times, serif;
-    font-size: 200%
-
+    font-size: 100%;
+    color: #ffffff;
+    animation: glow 2s infinite
 }
