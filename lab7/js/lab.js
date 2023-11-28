@@ -7,7 +7,8 @@ splitUsr = a.split("");
 // sort array
 splitUsr.sort()
 // return sorted array
-return splitUsr;
+var joinUsr = splitUsr.join('');
+return joinUsr;
 }
 //print array
 document.writeln(nameBreakdown(usrname))
