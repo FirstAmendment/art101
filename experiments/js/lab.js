@@ -1,5 +1,5 @@
-$("#buttons").append("<button id='button-middle'>Middle</button>");
 $("#buttons").append("<button id='button-light'>Light</button>");
+$("#buttons").append("<button id='button-middle'>Middle</button>");
 $("#buttons").append("<button id='button-dark'>Dark</button>");
 
 $("#buttons2").append("<button id='anime'>Anime</button>");
@@ -35,9 +35,21 @@ $(document).ready(function() {
 // Anime Button
 $(document).ready(function() {
     $("#anime").click(function(){
-        $("#image-container").children(":nth-child(2)").css("hide");
-        console.log("JS");
-});
+      $("#myImage").attr("src", "img/jiggly.png");
+      console.log("JS");
+});})
+// American Traditional Button
+$(document).ready(function() {
+  $("#americanTrad").click(function(){
+    $("#myImage").attr("src", "img/americantrad.png");
+    console.log("JS");
+});})
+// Traditional Japanese Button
+$(document).ready(function() {
+  $("#tradJapan").click(function(){
+    $("#myImage").attr("src", "img/japanesetradfrog.png");
+    console.log("JS");
+});})
 
 
 // click listener for button
@@ -48,4 +60,4 @@ const userName = $("#user-name").val();
 $("#output2").html('<div class="text"><p>' + userName + '</p></div>');
 // Change background color
 $("body,html").css("background-color", userName);
-});})
+});
