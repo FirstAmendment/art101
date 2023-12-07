@@ -1,5 +1,10 @@
 body {
-    background-color: #008a35;
+    background-color: #8a001c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 @keyframes changeColor {
@@ -33,14 +38,23 @@ body {
     padding: 10px;
     margin-bottom: 10px;
 }
-h1,h2,h3{
+h1,h3{
     text-align: center;
     font-size: 200%;
     font-family: "Times New Roman", Times, serif;
     color: #ffffff;
     animation: glow 2s infinite;
-    padding: 10px;
+    padding: 1px;
     margin-bottom: 10px;
+}
+h2{
+    text-align: center;
+    font-size: 200%;
+    font-family: "Times New Roman", Times, serif;
+    color: #ffffff;
+    animation: glow 2s infinite;
+    padding: 1px;
+    margin-bottom: 0px;
 }
 .text{
     font-size: 100%;
@@ -81,10 +95,22 @@ p{
     background-color: #c78d75;
 }
 
-.stacked-image:nth-child(2) {
-    z-index: 1; /* Adjust the z-index to control the stacking order */
+
+.container {
+    display: flex;
+    width: 80%;
 }
 
-.stacked-image:nth-child(3) {
-    z-index: 2;
+.sidebar {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.main-content {
+    flex: 2;
+    padding: 20px;
+}
+info{
+    padding-bottom: 10px;
 }

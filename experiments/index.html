@@ -11,20 +11,40 @@
 			<h1>INKBLOT<h1>
             <div class="image-container">
                 <img id="myImage" src="img/americantrad.png" alt="Original Image" width="250px">
-
-
             </div>
 
+            <h2>Color<h2>
 			<div id="buttons">
+                <input  type="text" id="user-name" placeholder="Hex Code or Color">
+                <button id="submit">Submit</button>
 			</div>
-			<div id="buttons2">
+            <h2>Images<h2>
+		        <div id="buttons2"></div>
+
+            <div id = "buttons3">
+                <form id="uploadForm">
+                    <input type="file" id="imageInput" accept="image/*">
+                    <button type="button" onclick="uploadImage()">Upload Image</button>
+                </form>
+
             </div>
             <div id="output">
-				<input  type="text" id="user-name" placeholder="Hex Code or Color">
-                    <button id="submit">Submit</button>
                 <script src="js/lab.js"></script>
             </div>
-			<div id="output2">
+
+			<div id="output2"> </div>
+
+            </div>
+
+            <h1>MORE INFO</h1>
+
+            <div id ="info">
+						<li><a href="https://www.google.com/search?q=traditional+tattoo+style&tbm=isch&ved=2ahUKEwjwtpfc4OyBAxVnJEQIHcjgCJkQ2-cCegQIABAA&oq=traditional+tattoo+style&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgAEIoFEEM6BggAEAcQHlDqCFjRGGC6HmgAcAB4AIABgQKIAdsNkgEFMi44LjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=ke4lZbCqJ-fIkPIPyMGjyAk&bih=721&biw=1440&rlz=1C5CHFA_enUS912US912"target = "_blank">Traditional</li></a>
+						<li><a href="https://www.google.com/search?sca_esv=572370827&rlz=1C5CHFA_enUS912US912&q=japanese+tattoo+style&tbm=isch&source=lnms&sa=X&sqi=2&ved=2ahUKEwjXkuPT3eyBAxWRFjQIHcLVAkYQ0pQJegQIDBAB&biw=1440&bih=721&dpr=2"target = "_blank">Janapese</li></a>
+						<li><a href="https://www.google.com/search?q=new+school+tattoo+style&tbm=isch&ved=2ahUKEwiFgfrU3eyBAxWjPEQIHXjIBb4Q2-cCegQIABAA&oq=New+School+t+style&gs_lcp=CgNpbWcQARgAMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIICAAQBRAHEB4yCAgAEAUQBxAeMggIABAFEAcQHjIICAAQBRAHEB4yCAgAEAUQBxAeOgcIABCKBRBDOgUIABCABDoNCAAQigUQsQMQgwEQQ1CyDFjXImD-LWgAcAB4AIABpwKIAZAQkgEFNi4yLjWYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=XeslZcXeCqP5kPIP-JCX8As&bih=721&biw=1440&rlz=1C5CHFA_enUS912US912"target = "_blank">New School</li></a>
+						<li><a href="https://www.google.com/search?q=neo+traditional+tattoo+style&tbm=isch&ved=2ahUKEwj6_N-_6-uBAxVyH0QIHclRDJcQ2-cCegQIABAA&oq=NEO++tattoo+style&gs_lcp=CgNpbWcQARgBMgUIABCABDIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIICAAQBRAHEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeOgcIABCKBRBDOggIABAIEAcQHlDDCVjwDWDIJWgAcAB4AIABTogBtwKSAQE1mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=p3MlZbqNBPK-kPIPyaOxuAk&bih=721&biw=1440&rlz=1C5CHFA_enUS912US912"target = "_blank">Neo Traditional</li></a>
+                        <!-- <img id="randomImage" alt="Random Image"> -->
+
             </div>
         </div>
 
