@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/Users/oscaraguirre/Desktop/art101/inkblot/index.html"
+            "file": "/Users/oscaraguirre/Desktop/art101/experiments/index.html"
         }
     ]
 }

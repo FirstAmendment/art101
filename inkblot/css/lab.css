@@ -13,7 +13,7 @@ h1{
     font-family: "Times New Roman", Times, serif;
     color: #ffffff;
     animation: glow 5s infinite;
-    padding: 1px;
+    padding: 10px;
     margin-bottom: 10px;
 }
 h2{
